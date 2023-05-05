@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    height: 12vh;
+}
+
+.Logo {
+    color: white;
+    font-size: 3rem;
+    padding-left: 4em;
+    line-height: 90px;
+    display: inline;
+    cursor: pointer;
+}
+
+nav ul {
+    float: right;
+    margin-right: 10em;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 25px;
+    font-size: 1.5rem;
+    line-height: 55px;
+    color: white;
+}
+
+li:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.Logo:hover {
+    cursor: pointer;
+    color: red;
+}
+
+body {
+    background-image: url(images/claudio-schwarz-4qJlXK4mYzU-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgb(169, 169, 180);
+}
+
+#container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-child {
+    position: relative;
+    background-color: green;
+    height: 60vh;
+    width: 40%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.form-one {
+    position: relative;
+    display: flex;
+    top: 50px;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.button-one {
+    position: relative;
+    bottom: 3px;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 1rem;
+    padding: 0.3em 0.3em;
+    border-radius: 15px;
+    bottom: 35px;
+}
+
+.button-one:hover {
+    background-color: rgb(156, 230, 10);
+    cursor: pointer;
+}
+
+.username-one {
+    position: relative;
+    bottom: 37px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.password-one {
+    position: relative;
+    bottom: 34px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.profile-image2 {
+    position: relative;
+    top: 10px;
+    border-radius: 50%;
+}
+
+input::placeholder {
+    text-align: center;
+}
+
+input[type="checkbox"] {
+    float: left;
+    margin-right: 227px;
+    position: relative;
+    bottom: 25px;
+  }
+
+label[for="Remember Me"] {
+    float: center;
+    margin-right: 105px;
+    position: relative;
+    bottom: 40px;
+}
+
+.forget-pswd {
+    position: relative;
+    bottom: 24px;
+}
